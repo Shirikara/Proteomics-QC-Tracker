@@ -4,7 +4,7 @@ Tool for tracking your mass-spectrometer (MS) performance over time
 ## Background
 Proteomics is the field of studying proteins, the most important molecules of life!
 The most powerful method for analyzing large-scale proteomes is called mass spectrometry, both in large samples composed of millions of cells in a tissue and down to the level of single cells. 
-The instrument used to identify and quantify the proteins in the sample is called a mass spectrometer (MS). To rely on the results of this instrument to conclude biologically interesting questions, it is crucial to track the performance of the MS using quality controls (QCs) over time for several reasons:
+The instrument used to identify and quantify the proteins in the sample is called a mass spectrometer (MS).
 
 ## Overview
 Proteomics Quality Control Tracker is a tool designed to monitor the performance of mass spectrometers (MS) over time, ensuring reliable and reproducible results in proteomics experiments. Proteomics, the large-scale study of proteins, relies heavily on mass spectrometry for protein identification and quantification. This software supports researchers in tracking key quality control (QC) metrics to maintain data quality and instrument reliability.
