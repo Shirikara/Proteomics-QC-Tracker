@@ -12,22 +12,6 @@ Proteomics Quality Control Tracker is a tool designed to monitor the performance
 ## Why QC is Crucial in Proteomics
 Mass spectrometry is a powerful method for analyzing proteomes across various sample scales, from tissues composed of millions of cells to single cells. However, the high sensitivity of MS instruments makes them susceptible to performance drift over time. By integrating regular QC monitoring, researchers can:
 
-Ensure Instrument Stability
-Detect performance degradation due to wear, contamination, or calibration issues.
-Maintain Reproducibility
-Achieve consistent results across datasets and timeframes.
-Identify Issues Early
-Address problems like signal loss or poor calibration before they compromise results.
-Guarantee Data Quality
-Enable reliable downstream analyses such as biomarker discovery and protein quantification.
-Standardize Across Studies
-Minimize variability in multi-laboratory or longitudinal studies.
-Streamline Documentation
-Satisfy regulatory and publication standards through performance logs.
-Optimize Experimental Design
-Refine settings for the best instrument performance in specific applications.
-Save Costs
-Reduce waste of reagents, consumables, and time by avoiding instrument downtime or re-runs.
 1. Instrument Stability and Reliability
 Mass spectrometers are highly sensitive instruments prone to drift or performance degradation due to wear, contamination, or other factors.
 Regular QC measurements ensure the instrument operates consistently, producing reliable data.
