@@ -1,11 +1,33 @@
-# HeLaQC-Analyzer
+# Proteomics QC tracker
 Tool for tracking your mass-spectrometer (MS) performance over time
 
 ## Background
 Proteomics is the field of studying proteins, the most important molecules of life!
 The most powerful method for analyzing large-scale proteomes is called mass spectrometry, both in large samples composed of millions of cells in a tissue and down to the level of single cells. 
-The instrument used to identify and quantify the proteins in the sample is called a mass-spectrometer (MS). In order to rely on the results of this instrument to conclude biologically interesting questions, it is crucial to track the performance of the MS using quality controls (QCs) over time for several reasons:
+The instrument used to identify and quantify the proteins in the sample is called a mass spectrometer (MS). To rely on the results of this instrument to conclude biologically interesting questions, it is crucial to track the performance of the MS using quality controls (QCs) over time for several reasons:
 
+## Overview
+Proteomics Quality Control Tracker is a tool designed to monitor the performance of mass spectrometers (MS) over time, ensuring reliable and reproducible results in proteomics experiments. Proteomics, the large-scale study of proteins, relies heavily on mass spectrometry for protein identification and quantification. This software supports researchers in tracking key quality control (QC) metrics to maintain data quality and instrument reliability.
+
+## Why QC is Crucial in Proteomics
+Mass spectrometry is a powerful method for analyzing proteomes across various sample scales, from tissues composed of millions of cells to single cells. However, the high sensitivity of MS instruments makes them susceptible to performance drift over time. By integrating regular QC monitoring, researchers can:
+
+Ensure Instrument Stability
+Detect performance degradation due to wear, contamination, or calibration issues.
+Maintain Reproducibility
+Achieve consistent results across datasets and timeframes.
+Identify Issues Early
+Address problems like signal loss or poor calibration before they compromise results.
+Guarantee Data Quality
+Enable reliable downstream analyses such as biomarker discovery and protein quantification.
+Standardize Across Studies
+Minimize variability in multi-laboratory or longitudinal studies.
+Streamline Documentation
+Satisfy regulatory and publication standards through performance logs.
+Optimize Experimental Design
+Refine settings for the best instrument performance in specific applications.
+Save Costs
+Reduce waste of reagents, consumables, and time by avoiding instrument downtime or re-runs.
 1. Instrument Stability and Reliability
 Mass spectrometers are highly sensitive instruments prone to drift or performance degradation due to wear, contamination, or other factors.
 Regular QC measurements ensure the instrument operates consistently, producing reliable data.
