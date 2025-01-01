@@ -1,6 +1,8 @@
 # Proteomics QC tracker
 Tool for tracking your mass-spectrometer (MS) performance over time
-![Description of the Image](https://github.com/Shirikara/Proteomics-QC-Tracker/edit/main/assets/qc_8790360.png)
+<img src="qc_8790360.png" alt="QC Metrics Example" width="100"/>
+
+
 ## Background
 Proteomics is the field of studying proteins, the most important molecules of life!
 The most powerful method for analyzing large-scale proteomes is called mass spectrometry, both in large samples composed of millions of cells in a tissue and down to the level of single cells. 
