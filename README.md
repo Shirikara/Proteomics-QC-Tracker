@@ -16,7 +16,7 @@ The cornerstone of proteomics is **mass spectrometry (MS)**, a technique that id
 The **Proteomics Quality Control (QC) Tracker** helps researchers monitor the performance of mass spectrometers over time, ensuring reliable and reproducible results in proteomics experiments.  
 
 ### **Key Features:**  
-- Tracks essential QC metrics like retention times, signal intensity, and resolution.  
+- Tracks essential QC metrics like accuracy and resolution.  
 - Supports early detection of instrument performance issues.  
 - Enhances reproducibility across longitudinal and multi-laboratory studies.  
 - Provides data quality assurance for downstream analyses.  
