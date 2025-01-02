@@ -1,40 +1,68 @@
-# Proteomics QC tracker
-Tool for tracking your mass-spectrometer (MS) performance over time
-<img src="qc_8790360.png" alt="QC Metrics Example" width="100"/>
+# **Proteomics QC Tracker**  
+*A tool for tracking your mass spectrometer's (MS) performance over time.*  
 
+<img src="qc_8790360.png" alt="QC Metrics Example" width="150"/>
 
-## Background
-Proteomics is the field of studying proteins, the most important molecules of life!
-The most powerful method for analyzing large-scale proteomes is called mass spectrometry, both in large samples composed of millions of cells in a tissue and down to the level of single cells. 
-The instrument used to identify and quantify the proteins in the sample is called a mass spectrometer (MS).
+---
 
-## Overview
-Proteomics Quality Control Tracker is a tool designed to monitor the performance of mass spectrometers (MS) over time, ensuring reliable and reproducible results in proteomics experiments. Proteomics, the large-scale study of proteins, relies heavily on mass spectrometry for protein identification and quantification. This software supports researchers in tracking key quality control (QC) metrics to maintain data quality and instrument reliability.
+## **What is Proteomics?**  
+Proteomics is the large-scale study of proteins, the essential molecules of life that perform most biological functions. By analyzing the proteome—an organism's complete set of proteins—researchers gain critical insights into cellular processes, disease mechanisms, and potential therapeutic targets.  
 
-## Why QC is Crucial in Proteomics
-Mass spectrometry is a powerful method for analyzing proteomes across various sample scales, from tissues composed of millions of cells to single cells. However, the high sensitivity of MS instruments makes them susceptible to performance drift over time. By integrating regular QC monitoring, researchers can:
+The cornerstone of proteomics is **mass spectrometry (MS)**, a technique that identifies and quantifies proteins in samples ranging from large tissues to individual cells. A **mass spectrometer** achieves this precision, making it indispensable in cutting-edge research.  
 
-1. **Instrument Stability and Reliability**
-Mass spectrometers are highly sensitive instruments prone to drift or performance degradation due to wear, contamination, or other factors.
-Regular QC measurements ensure the instrument operates consistently, producing reliable data.
-2. **Reproducibility of Results**
-Proteomics experiments often span days, weeks, or months. Ensuring reproducibility over time is vital for meaningful comparisons across datasets.
-QC checks can identify fluctuations in sensitivity, resolution, or accuracy, which could affect experimental outcomes.
-3. **Early Detection of Issues**
-Routine QC monitoring can detect problems like loss of signal intensity, poor calibration, or contamination early, allowing for timely maintenance or repair.
-This minimizes downtime and prevents the loss of valuable samples or data.
-4. **Data Quality Assurance**
-Proteomics relies on high-quality data for downstream analysis, such as protein quantification and biomarker discovery.
-QC ensures the reliability of peak intensities, retention times, and mass accuracy, critical for confident identification and quantification.
-5. **Standardization Across Studies**
-In multi-laboratory or longitudinal studies, QC data help standardize performance and reduce variability introduced by the instrument.
-This is particularly important for large-scale projects involving multiple cohorts or time points.
-6. **Documentation for Regulatory and Publication Requirements**
-For clinical proteomics or studies requiring compliance with standards like GLP (Good Laboratory Practice), QC data provide a documented audit trail of instrument performance.
-It strengthens the credibility of the research for publication or regulatory approval.
-7. **Optimization of Experimental Design**
-QC data can guide the choice of settings or workflows, such as optimal gradient lengths, collision energy, or sample loading, ensuring the best performance for specific applications.
-8. **Cost Efficiency**
-Monitoring QC reduces the likelihood of wasting reagents, consumables, and samples due to unnoticed instrument issues.
-It prevents the need for extensive re-runs caused by poor-quality data.
-By tracking QC metrics like retention time reproducibility, signal intensity, and resolution, labs ensure the mass spectrometer consistently delivers high-quality data essential for robust and trustworthy proteomics research.
+---
+
+## **Overview**  
+The **Proteomics Quality Control (QC) Tracker** helps researchers monitor the performance of mass spectrometers over time, ensuring reliable and reproducible results in proteomics experiments.  
+
+### **Key Features:**  
+- Tracks essential QC metrics like retention times, signal intensity, and resolution.  
+- Supports early detection of instrument performance issues.  
+- Enhances reproducibility across longitudinal and multi-laboratory studies.  
+- Provides data quality assurance for downstream analyses.  
+
+---
+
+## **Why QC is Crucial in Proteomics**  
+
+Mass spectrometry is sensitive and susceptible to performance drift. Integrating regular QC monitoring ensures consistent, high-quality results.  
+
+### **Benefits of QC Monitoring:**  
+
+1. **Instrument Stability and Reliability**  
+   Regular QC checks prevent performance degradation due to wear, contamination, or calibration issues, ensuring consistent operation.  
+
+2. **Reproducibility of Results**  
+   Proteomics experiments span extended timeframes. QC ensures datasets remain comparable and reliable.  
+
+3. **Early Detection of Issues**  
+   Detect issues like signal loss or poor calibration early to minimize downtime and prevent data loss.  
+
+4. **Data Quality Assurance**  
+   High-quality data is critical for protein quantification and biomarker discovery. QC maintains confidence in peak intensities, retention times, and mass accuracy.  
+
+5. **Standardization Across Studies**  
+   QC data help standardize performance in multi-laboratory or longitudinal studies, reducing variability.  
+
+6. **Regulatory and Publication Requirements**  
+   Documented QC provides an audit trail for GLP (Good Laboratory Practice) compliance and strengthens publication credibility.  
+
+7. **Optimization of Experimental Design**  
+   Use QC data to refine experimental workflows, optimizing instrument settings for specific applications.  
+
+8. **Cost Efficiency**  
+   QC monitoring reduces reagent and sample waste, preventing costly re-runs.  
+
+---
+
+## **How It Works**  
+- **Compatibility**: the tool is suitable for researchers using [DIA-NN](https://github.com/vdemichev/DiaNN) software.
+- **Requirements**: The software asks the user to upload a "stats" .tsv file, which is one of the output tables generated in DIA-NN report.
+  The "stats.tsv" file contains the following columns:
+   ![image](https://github.com/user-attachments/assets/ecbe402a-62f2-46e3-aa0a-307bb7d62553)
+
+The Proteomics QC Tracker evaluates key metrics, including:  
+- **Resolution**:  Confirms high-resolution identification by monitoring the number of proteins identified in HeLa protein digestion of 0.2ng and 5ng.  
+- **Mass Accuracy**: Confirms and precise quantification by showing MS1 and MS2 median mass accuracy.  
+
+By integrating QC monitoring into your workflow, you can trust your data and maximize your mass spectrometer's performance.  
