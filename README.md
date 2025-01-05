@@ -14,6 +14,8 @@ The cornerstone of proteomics is **mass spectrometry (MS)**, a technique that id
 
 ## **Overview**  
 The **Proteomics Quality Control (QC) Tracker** helps researchers monitor the performance of mass spectrometers over time, ensuring reliable and reproducible results in proteomics experiments.  
+Briefly, I work in a proteomics lab where we use data from mass spectrometers to investigate protein dynamics across various cancer types. The mass spectrometer (MS) is the key instrument we use to identify and quantify proteins in our samples. A critical technical requirement is monitoring the performance of the MS over time to ensure consistent functionality. This prevents batch effects caused by performance drift and ensures the reliability of our biological insights.
+To achieve this, we regularly inject a quality control (QC) sample containing a known amount (0.2 or 5 ng) of HeLa protein digest. We evaluate MS performance using several metrics, such as the number of proteins identified and mass accuracy. I aim to create a GUI using Tkinter that enables lab members to upload QC data files weekly. The app will visualize the MS QC status over time using a time-series plot, providing an intuitive way to track performance trends.
 
 ### **Key Features:**  
 - Tracks essential QC metrics like accuracy and resolution.  
