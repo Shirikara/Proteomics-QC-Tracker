@@ -121,14 +121,14 @@ Select the folder that contains the stat files and where the database will be sa
 
 The database is saved:
 
-<img src="GUI_view_save_completed.PNG" alt="GUI_view_save_completed" width="500"/>
+<img src="GUI_view_save_completed.PNG" alt="GUI_view_save_completed" width="300"/>
 
 
 Visualization of plots that the user selected:
 
-<img src="protein_IDs.png" alt="protein_IDs" width="500"/>
-<img src="protein_IDs.png" alt="protein_IDs" width="500"/>
-<img src="Median_mass_accuracy.png" alt="Median_mass_accuracy" width="500"/>
+<img src="protein_IDs.png" alt="protein_IDs" width="700"/>
+<img src="protein_IDs.png" alt="protein_IDs" width="700"/>
+<img src="Median_mass_accuracy.png" alt="Median_mass_accuracy" width="700"/>
 
 ---
 🎓 This project was written as part of the [Python course](https://github.com/szabgab/wis-python-course-2024-11) at the Weizmann Institute of Science.
