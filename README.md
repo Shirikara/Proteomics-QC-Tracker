@@ -115,7 +115,8 @@ User chooses which metrics to plot:
 
 <img src="GUI_view_ticked_metrics_of_interest.PNG" alt="GUI_view_ticked_metrics_of_interest" width="500"/>
 
-Select the folder that contains the stat files and where the database will be saved (green button):
+Select the folder that contains the stat files and where the database will be saved 
+(the result of clicking on the green button):
 
 <img src="GUI_view_select_folder.PNG" alt="GUI_view_select_folder" width="500"/>
 
