@@ -77,13 +77,13 @@ By integrating QC monitoring into your workflow, you can trust your data and max
 6. Create and activate a virtual environment (recommended):
 
 For Windows:
-bash
+```bash
 Copy
 Edit
 python -m venv env
 env\Scripts\activate
 For macOS/Linux:
-bash
+```bash
 Copy
 Edit
 python3 -m venv env
