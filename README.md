@@ -80,6 +80,7 @@ By integrating QC monitoring into your workflow, you can trust your data and max
    cd path/to/project/folder
    ``` 
 7. Create a virtual environment 
+
 For Windows:
 ```bash
 python -m venv env
@@ -97,8 +98,11 @@ pip install -r requirements.txt
 Optional: verify that all dependencies are installed successfully by running:
 
 ```bash
-pip list 
+pip list
+```
 ---
+## **GUI**
 
 
-🎓 This project was written as part of the [Python course](https://github.com/szabgab/wis-python-course-2024-11).
+---
+🎓 This project was written as part of the [Python course](https://github.com/szabgab/wis-python-course-2024-11) at the Weizmann Institute of Science.
