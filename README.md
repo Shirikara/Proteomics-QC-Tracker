@@ -113,21 +113,22 @@ This window should appear when the GUI is initialized:
 
 User chooses which metrics to plot:
 
-<img src="GUI_view_ticked_metrics_of_interest.PNG" alt="QC Metrics Example" width="500"/>
+<img src="GUI_view_ticked_metrics_of_interest.PNG" alt="GUI_view_ticked_metrics_of_interest" width="500"/>
 
 Select the folder that contains the stat files and where the database will be saved (green button):
 
-<img src="GUI_view_select_folder.PNG" alt="QC Metrics Example" width="500"/>
+<img src="GUI_view_select_folder.PNG" alt="GUI_view_select_folder" width="500"/>
 
 The database is saved:
 
-<img src="GUI_view_select_folder.PNG" alt="QC Metrics Example" width="500"/>
+<img src="GUI_view_save_completed.PNG" alt="GUI_view_save_completed" width="500"/>
 
 
 Visualization of plots that the user selected:
 
-<img src="GUI_view_select_folder.PNG" alt="QC Metrics Example" width="500"/>
-
+<img src="protein_IDs.png" alt="protein_IDs" width="500"/>
+<img src="protein_IDs.png" alt="protein_IDs" width="500"/>
+<img src="Median_mass_accuracy.png" alt="Median_mass_accuracy" width="500"/>
 
 ---
 🎓 This project was written as part of the [Python course](https://github.com/szabgab/wis-python-course-2024-11) at the Weizmann Institute of Science.
