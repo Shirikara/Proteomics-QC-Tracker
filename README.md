@@ -68,3 +68,5 @@ The Proteomics QC Tracker evaluates key metrics, including:
 - **Mass Accuracy**: Confirms and precise quantification by showing MS1 and MS2 median mass accuracy.  
 
 By integrating QC monitoring into your workflow, you can trust your data and maximize your mass spectrometer's performance.  
+
+This project was written as part of the ![course](https://github.com/szabgab/wis-python-course-2024-11)
