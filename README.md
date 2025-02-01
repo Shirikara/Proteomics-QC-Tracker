@@ -108,9 +108,25 @@ pip list
 
 ## **Navigating in the GUI**
 This window should appear when the GUI is initialized:
+
 <img src="GUI_view.PNG" alt="QC Metrics Example" width="500"/>
 
+User chooses which metrics to plot:
+
 <img src="GUI_view_ticked_metrics_of_interest.PNG" alt="QC Metrics Example" width="500"/>
+
+Select the folder that contains the stat files and where the database will be saved (green button):
+
+<img src="GUI_view_select_folder.PNG" alt="QC Metrics Example" width="500"/>
+
+The database is saved:
+
+<img src="GUI_view_select_folder.PNG" alt="QC Metrics Example" width="500"/>
+
+
+Visualization of plots that the user selected:
+
+<img src="GUI_view_select_folder.PNG" alt="QC Metrics Example" width="500"/>
 
 
 ---
