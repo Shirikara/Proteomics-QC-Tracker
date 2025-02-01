@@ -68,37 +68,37 @@ The Proteomics QC Tracker evaluates key metrics, including:
 - **Mass Accuracy**: Confirms and precise quantification by showing MS1 and MS2 median mass accuracy. 
 By integrating QC monitoring into your workflow, you can trust your data and maximize your mass spectrometer's performance.  
 
-## **How to run the tool?** 
-1. Make sure you have Python installed (version 3.7 or later is recommended). If needed, install it here: [Download Python Official Website](https://www.python.org/downloads/)
-2. Download the script file called Proteomics_QC_Tracker.py from this repository
-3. Download all "stats.tsv" files into the same folder as the script file (if you have your own "stats.tsv" files, add them into the same folder).
-4. If you added your files, add the QC date into the file name in the format DATE/MONTH/YEAR (e.g., 3-February 2025 would be: 03022025).
-5. Access the file folder by typing this in the terminal cd path/to/project/folder
-6. Create and activate a virtual environment (recommended):
+---
 
+## **How to run this tool?** 
+1. Ensure Python is installed (version 3.7 or later is recommended). If needed, install it here: [Download Python Official Website](https://www.python.org/downloads/)
+2. Download the script file called Proteomics_QC_Tracker.py from this repository
+4. Download all "stats.tsv" files into the same folder as the script file (if you have your own "stats.tsv" files, add them into the same folder).
+5. If you added your files, add the QC date into the file name in the format DATE/MONTH/YEAR (e.g., 3-February 2025 would be: 03022025).
+6. Access the file folder by typing this in the terminal
+   ``` bash
+   cd path/to/project/folder
+   ``` 
+7. Create a virtual environment 
 For Windows:
 ```bash
-Copy
-Edit
 python -m venv env
 env\Scripts\activate
+```
 For macOS/Linux:
 ```bash
-Copy
-Edit
 python3 -m venv env
 source env/bin/activate
-Install the required dependencies using the requirements.txt file:
 
-bash
-Copy
-Edit
+8. Install dependencies using the requirements.txt file found in this repository:
+```bash
 pip install -r requirements.txt
-Verify that all dependencies are installed successfully by running:
+```
+Optional: verify that all dependencies are installed successfully by running:
 
-bash
-Copy
-Edit
+```bash
 pip list 
 ---
+
+
 🎓 This project was written as part of the [Python course](https://github.com/szabgab/wis-python-course-2024-11).
