@@ -100,8 +100,17 @@ Optional: verify that all dependencies are installed successfully by running:
 ```bash
 pip list
 ```
+8. Run the tool by typing in the terminal:
+```bash
+.\Proteomics_QC_Tracker.py
+```
 ---
-## **GUI**
+
+## **Navigating in the GUI**
+This window should appear when the GUI is initialized:
+<img src="GUI_view.PNG" alt="QC Metrics Example" width="500"/>
+
+<img src="GUI_view_ticked_metrics_of_interest.PNG" alt="QC Metrics Example" width="500"/>
 
 
 ---
