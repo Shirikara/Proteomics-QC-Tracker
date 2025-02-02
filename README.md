@@ -99,20 +99,9 @@ Type in the terminal the path to the folder using the cd:
    cd path/to/project/folder
    ```
 ### 5. Dependencies 
-Create a virtual environment 
-
-For Windows:
-```bash
-python -m venv env
-env\Scripts\activate
-```
-For macOS/Linux:
-```bash
-python3 -m venv env
-source env/bin/activate
-```
 
 Install dependencies using the requirements.txt file found in this repository:
+
 ```bash
 pip install -r requirements.txt
 ```
@@ -147,11 +136,11 @@ This window should appear when the GUI is initialized:
 
 <img src="GUI_view.PNG" alt="QC Metrics Example" width="500"/>
 
-User chooses which metrics to plot and selects the stats file containing folder:
+The user chooses which metrics to plot and selects the stats file containing folder:
 
 <img src="GUI_view_ticked_metrics_of_interest.PNG" alt="GUI_view_ticked_metrics_of_interest" width="500"/>
 
-Select the folder that contains the stat files and where the database will be saved 
+Select the <ins> folder that contains the stat files </ins>  and where the database will be saved 
 (the result of clicking on the green button):
 
 <img src="GUI_view_select_folder.PNG" alt="GUI_view_select_folder" width="500"/>
@@ -168,8 +157,7 @@ The HeLa_QC_Database.csv" file is being created. In addition to the stat columns
 2. "Creation_Date", adding the temporal information needed to plot a time series plot.
 3. "User initials", to know who was the user that ran the QC in the instruments. At the moment, it has four users from my lab SK, JS, SP and GE (please modify file names with your lab users' initials, else it will insert "unknown").
 
-Note: The database can be updated by running the tool each time a new "stats.tsv" file is added to the folder.
-
+The database can be updated by running the tool each time a new "stats.tsv" file is added to the folder.
 
 ### Visualization of plots that the user selected: 📈
 <img src="protein_IDs.png" alt="protein_IDs" width="700"/>
