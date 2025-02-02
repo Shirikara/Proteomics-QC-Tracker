@@ -128,7 +128,7 @@ Required packages include:
 Run the tool by typing in the terminal:
      
 ```bash
-.\Proteomics_QC_Tracker.py
+python .\Proteomics_QC_Tracker.py
 ```
 ---
 
