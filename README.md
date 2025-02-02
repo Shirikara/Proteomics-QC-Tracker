@@ -90,7 +90,7 @@ Type in the terminal the path to the folder using the cd:
    ``` bash
    cd path/to/project/folder
    ```
-### .5 Dependencies 
+### 5. Dependencies 
 Create a virtual environment 
 
 For Windows:
@@ -124,7 +124,7 @@ Required packages include:
 - os
 - webbrowser
 
-### .5 Run the tool 
+### 6. Run the tool 
 Run the tool by typing in the terminal:
      
 ```bash
@@ -150,7 +150,6 @@ The database is saved in a csv file called "HeLa_QC_Database.csv":
 
 <img src="GUI_view_save_completed.PNG" alt="GUI_view_save_completed" width="300"/>
 
-
 Visualization of plots that the user selected:
 
 <img src="protein_IDs.png" alt="protein_IDs" width="700"/>
@@ -158,7 +157,12 @@ Visualization of plots that the user selected:
 <img src="Median_mass_accuracy.png" alt="Median_mass_accuracy" width="700"/>
 
 ---
-## **Running a test file**
+## **Running a tests file**
+To run the tests, use:
+
+```bash
+Tests.py
+```
 
 ---
 🎓 This project was written as part of the [Python course](https://github.com/szabgab/wis-python-course-2024-11) at the Weizmann Institute of Science taught by [Gábor Szabó](https://github.com/szabgab).
