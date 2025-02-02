@@ -72,15 +72,26 @@ By integrating QC monitoring into your workflow, you can trust your data and max
 ---
 
 ## **How to run this tool?** 
-1. Ensure Python is installed (version 3.7 or later is recommended). If needed, install it here: [Download Python Official Website](https://www.python.org/downloads/)
-2. Download the script file called Proteomics_QC_Tracker.py from this repository
-4. Download all "stats.tsv" files into the same folder as the script file (if you have your own "stats.tsv" files, add them into the same folder).
-5. If you added your files, add the QC date into the file name in the format DATE/MONTH/YEAR (e.g., 3-February 2025 would be: 03022025).
-6. Access the file folder by typing this in the terminal
+### 1. Python installation 
+Ensure Python is installed (version 3.7 or later is recommended). If needed, install it here: [Download Python Official Website](https://www.python.org/downloads/)
+### 2. Download the repository
+Direct Download as a ZIP File (No Git Required)
+Go to the Repository's GitHub Page
+Open the GitHub repository in your browser.
+Click the green Code button.
+Select Download ZIP.
+Extract the downloaded ZIP file to access all the repository files.
+-Note: Ensure that the script file called Proteomics_QC_Tracker.py from this repositoryand  all "stats.tsv" files into the same folder as the script file. 
+### 3. Optional: Add your own QC files and modify file names
+If you added your  "stats.tsv" files, make sure you saved them into the same folder as the script file. Also, to enable time series plots, make sure the file name is in the format DATE/MONTH/YEAR (e.g., 3-February 2025 would be: 03022025).
+
+### 4. Access the file folder 
+Type in the terminal the path to the folder using the cd:
    ``` bash
    cd path/to/project/folder
-   ``` 
-7. Create a virtual environment 
+   ```
+### .5 Dependencies 
+Create a virtual environment 
 
 For Windows:
 ```bash
@@ -92,7 +103,7 @@ For macOS/Linux:
 python3 -m venv env
 source env/bin/activate
 
-8. Install dependencies using the requirements.txt file found in this repository:
+Install dependencies using the requirements.txt file found in this repository:
 ```bash
 pip install -r requirements.txt
 ```
@@ -102,19 +113,20 @@ Optional: verify that all dependencies are installed successfully by running:
 pip list
 ```
 Required packages include:
+- pandas
+- tkinter
+- matplotlib
+- numpy
+- seaborn
+- datetime
+- pillow
+- re
+- os
+- webbrowser
 
-pandas
-tkinter
-matplotlib
-numpy
-seaborn
-datetime
-pillow
-re
-os
-webbrowser
-
-8. Run the tool by typing in the terminal:
+### .5 Run the tool 
+Run the tool by typing in the terminal:
+     
 ```bash
 .\Proteomics_QC_Tracker.py
 ```
