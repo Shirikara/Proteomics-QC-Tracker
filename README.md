@@ -6,7 +6,7 @@
 ---
 
 ## **What is Proteomics?**  
-Proteomics is the large-scale study of proteins, the essential molecules of life that perform most biological functions. By analyzing the proteome—an organism's complete set of proteins—researchers gain critical insights into cellular processes, disease mechanisms, and potential therapeutic targets.  
+Proteomics is the large-scale study of proteins, the essential molecules of life that perform most biological functions. Researchers gain critical insights into cellular processes, disease mechanisms, and potential therapeutic targets by analyzing the proteome- an organism's complete set of proteins.  
 
 The cornerstone of proteomics is **mass spectrometry (MS)**, a technique that identifies and quantifies proteins in samples ranging from large tissues to individual cells. A **mass spectrometer** achieves this precision, making it indispensable in cutting-edge research.  
 
@@ -15,7 +15,7 @@ The cornerstone of proteomics is **mass spectrometry (MS)**, a technique that id
 ## **Overview**  
 The **Proteomics Quality Control (QC) Tracker** helps researchers monitor the performance of mass spectrometers over time, ensuring reliable and reproducible results in proteomics experiments.  
 Briefly, I work in a proteomics lab where we use data from mass spectrometers to investigate protein dynamics across various cancer types. The mass spectrometer (MS) is the key instrument we use to identify and quantify proteins in our samples. A critical technical requirement is monitoring the performance of the MS over time to ensure consistent functionality. This prevents batch effects caused by performance drift and ensures the reliability of our biological insights.
-To achieve this, we regularly inject a quality control (QC) sample containing a known amount (0.2 or 5 ng) of HeLa protein digest. We evaluate MS performance using several metrics, such as the number of proteins identified and mass accuracy. I aim to create a GUI using Tkinter that enables lab members to upload QC data files weekly. The app will visualize the MS QC status over time using a time-series plot, providing an intuitive way to track performance trends.
+We regularly inject a quality control (QC) sample containing a known amount (0.2 or 5 ng) of HeLa protein digest to achieve this. We evaluate MS performance using several metrics, such as the number of proteins or peptides identified, mass accuracy, and more. Using the Python Tkinter package, I created a GUI that enables lab members to upload QC data files weekly. The tool will visualize the MS QC status over time using time-series plots that can be chosen by the user, providing an intuitive way to track performance trends.
 
 ### **Key Features:**  
 - Tracks essential QC metrics like accuracy and resolution.  
@@ -59,7 +59,7 @@ Mass spectrometry is sensitive and susceptible to performance drift. Integrating
 
 ## **How It Works**  
 - **Compatibility**: the tool is suitable for researchers using [DIA-NN](https://github.com/vdemichev/DiaNN) software.
-- **Requirements**: The software asks the user to upload a "stats" .tsv file, which is one of the output tables generated in DIA-NN report.
+- **Requirements**: The software asks the user to upload a "stats" .tsv file, one of the output tables generated in the DIA-NN report.
   The "stats.tsv" file contains the following columns:
    ![image](https://github.com/user-attachments/assets/ecbe402a-62f2-46e3-aa0a-307bb7d62553)
 
@@ -120,7 +120,7 @@ Select the folder that contains the stat files and where the database will be sa
 
 <img src="GUI_view_select_folder.PNG" alt="GUI_view_select_folder" width="500"/>
 
-The database is saved:
+The database is saved in a csv file called "HeLa_QC_Database.csv":
 
 <img src="GUI_view_save_completed.PNG" alt="GUI_view_save_completed" width="300"/>
 
