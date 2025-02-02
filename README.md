@@ -171,7 +171,7 @@ Note: The database can be updated by running the tool each time a new "stats.tsv
 To run the tests, use:
 
 ```bash
-Tests.py
+python Tests.py
 ```
 ## **Upcoming Features (under development)** 💻🔨
 Showing the GUI to the lab users raised multiple ideas for further improving the tool:
