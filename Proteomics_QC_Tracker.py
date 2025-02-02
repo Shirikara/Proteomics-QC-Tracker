@@ -137,7 +137,9 @@ def main():
                 plt.xticks(rotation=45)
                 plt.tight_layout()
                 plt.grid(False)
-                plt.show()
+                plt.show(block=False)
+                plt.pause(0.2)  # Allow time for the plot to render before the next one
+
 
         except Exception as e:
             messagebox.showerror("Error", f"An error occurred: {e}")
