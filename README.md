@@ -132,4 +132,7 @@ Visualization of plots that the user selected:
 <img src="Median_mass_accuracy.png" alt="Median_mass_accuracy" width="700"/>
 
 ---
+## **Running a test file**
+
+---
 🎓 This project was written as part of the [Python course](https://github.com/szabgab/wis-python-course-2024-11) at the Weizmann Institute of Science.
