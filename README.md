@@ -17,7 +17,7 @@ The **Proteomics Quality Control (QC) Tracker** helps researchers monitor the pe
 Briefly, I work in a proteomics lab where we use data from mass spectrometers to investigate protein dynamics across various cancer types. The mass spectrometer (MS) is the key instrument we use to identify and quantify proteins in our samples. A critical technical requirement is monitoring the performance of the MS over time to ensure consistent functionality. This prevents batch effects caused by performance drift and ensures the reliability of our biological insights.
 We regularly inject a quality control (QC) sample containing a known amount (0.2 or 5 ng) of HeLa protein digest to achieve this. We evaluate MS performance using several metrics, such as the number of proteins or peptides identified, mass accuracy, and more. Using the Python Tkinter package, I created a GUI that enables lab members to upload QC data files weekly. The tool will visualize the MS QC status over time using time-series plots that can be chosen by the user, providing an intuitive way to track performance trends.
 
-### **Key Features:**  
+### **Key Features:** 📊 
 - Tracks essential QC metrics like accuracy and resolution.  
 - Supports early detection of instrument performance issues.  
 - Enhances reproducibility across longitudinal and multi-laboratory studies.  
@@ -25,11 +25,11 @@ We regularly inject a quality control (QC) sample containing a known amount (0.2
 
 ---
 
-## **Why QC is Crucial in Proteomics**  
+## **Why QC is Crucial in Proteomics** 🔎 
 
 Mass spectrometry is sensitive and susceptible to performance drift. Integrating regular QC monitoring ensures consistent, high-quality results.  
 
-### **Benefits of QC Monitoring:**  
+### **Benefits of QC Monitoring:** 💡
 
 1. **Instrument Stability and Reliability**  
    Regular QC checks prevent performance degradation due to wear, contamination, or calibration issues, ensuring consistent operation.  
@@ -71,7 +71,7 @@ By integrating QC monitoring into your workflow, you can trust your data and max
 
 ---
 
-## **How to run this tool?** 
+## **How to run this tool?** 🏃‍♀️
 ### 1. Python installation 
 Ensure Python is installed (version 3.7 or later is recommended). If needed, install it here: [Download Python Official Website](https://www.python.org/downloads/)
 ### 2. Download the repository
@@ -124,7 +124,7 @@ Required packages include:
 - os
 - webbrowser
 
-### 6. Run the tool 
+### 6. Run the tool ▶️
 Run the tool by typing in the terminal:
      
 ```bash
@@ -132,7 +132,7 @@ Run the tool by typing in the terminal:
 ```
 ---
 
-## **Navigating in the GUI**
+## **Navigating in the GUI** 🧭
 This window should appear when the GUI is initialized:
 
 <img src="GUI_view.PNG" alt="QC Metrics Example" width="500"/>
@@ -150,19 +150,37 @@ The database is saved in a csv file called "HeLa_QC_Database.csv":
 
 <img src="GUI_view_save_completed.PNG" alt="GUI_view_save_completed" width="300"/>
 
-Visualization of plots that the user selected:
+## **Output** 📝
 
+### QC Database 
+The HeLa_QC_Database.csv" file is being created. In addition to the stat columns, three extra columns are being added, extracting information from the file names:
+1. "HeLa_amounts", specifying the low and high HeLa amounts injected)
+2. "Creation_Date", adding the temporal information needed to plot a time series plot.
+3. "User initials", to know who was the user that ran the QC in the instruments. At the moment, it has four users from my lab SK, JS, SP and GE (please modify file names with your lab users' initials, else it will insert "unknown").
+
+Note: The database can be updated by running the tool each time a new "stats.tsv" file is added to the folder.
+
+
+### Visualization of plots that the user selected: 📈
 <img src="protein_IDs.png" alt="protein_IDs" width="700"/>
 <img src="protein_IDs.png" alt="protein_IDs" width="700"/>
 <img src="Median_mass_accuracy.png" alt="Median_mass_accuracy" width="700"/>
 
 ---
-## **Running a tests file**
+## **Running a tests file** 💉
 To run the tests, use:
 
 ```bash
 Tests.py
 ```
+## **Upcoming Features (under development)** 💻🔨
+Showing the GUI to the lab users raised multiple ideas for further improving the tool:
+- Integration with maintenance logbook table:
+  To assess potential contributors to the MS performance (improvement/deterioration), I would like to merge technical information from the instrument side, like changing the analytical column, and preventive maintenance, cleaning or replacing a part, into the database. This information could be plotted in the output graphs and help explain the signal trends since the date alone is not indicative enough.
+-  Counter:
+  Counting the number of samples ran between individual QC runs (running too many samples, especially more "dirty" samples is an essential piece of information.
+-  Automation:
+  Learn how to automate the process and check if there is a free automation tool that can run the code and update the database automatically when a new "stats.tsv" file is added to the folder.
 
 ---
 🎓 This project was written as part of the [Python course](https://github.com/szabgab/wis-python-course-2024-11) at the Weizmann Institute of Science taught by [Gábor Szabó](https://github.com/szabgab).
