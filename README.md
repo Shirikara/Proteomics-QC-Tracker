@@ -71,7 +71,7 @@ Mass spectrometry is sensitive and susceptible to performance drift. Integrating
 | Hela_QC_5ng_13728.d.dia | 6854       | 1498        | 8.42E+06   | 1.4E+10   | 5.32E+10  | 2.052   | 0.032   | 4.65333  | 2.13325  | 5.46158  | 4.49295  | 0        | 0.0854085 | 0.00817859 | 10.453    | 2.1       | 0.214     |
 | Hela_QC_5ng_13730.d.dia | 6035       | 1474        | 6.74E+06   | 1.05E+10  | 4.36E+10  | 2.08    | 0.033   | 4.16335  | 2.17015  | 5.87256  | 4.83991  | 0        | 0.102536  | 0.00995632 | 10.504    | 2.092     | 0.188   
 
-Of note, for time series plots, more than 1 stats file is required
+${\color{#D22B2B}Of\ note,\ for\ time\ series\ plots,\ more\ than\ one\ stats\ file\ is\ required}$
 
 The Proteomics QC Tracker evaluates key metrics, including:  
 - **Resolution**:  Confirms high-resolution identification by monitoring the number of proteins identified in HeLa protein digestion of 0.2ng and 5ng.  
@@ -132,6 +132,7 @@ Required packages include:
 - re
 - os
 - webbrowser
+- pytest
 
 ### 6. Run the tool ▶️
 Run the tool by typing in the terminal:
