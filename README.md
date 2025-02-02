@@ -64,6 +64,15 @@ Mass spectrometry is sensitive and susceptible to performance drift. Integrating
   The "stats.tsv" file contains the following columns:
    ![image](https://github.com/user-attachments/assets/ecbe402a-62f2-46e3-aa0a-307bb7d62553)
 
+**Input File Example**:
+ | File.Name                                                                 | Precursors.Identified | Proteins.Identified | Total.Quantity | MS1.Signal | MS2.Signal | FWHM.Scans | FWHM.RT | Median.Mass.Acc.MS1 | Median.Mass.Acc.MS1.Corrected | Median.Mass.Acc.MS2 | Median.Mass.Acc.MS2.Corrected | MS2.Mass.Instability | Normalisation.Instability | Median.RT.Prediction.Acc | Average.Peptide.Length | Average.Peptide.Charge | Average.Missed.Tryptic.Cleavages |
+|--------------------------------------------------------------------------|------------|-------------|------------|-----------|-----------|---------|---------|-----------|-----------|-----------|-----------|----------|-----------|-----------|-----------|-----------|-----------|
+| Hela_QC_02ng_S1-A1_1_13727.d.dia | 6475       | 1541        | 6.76E+06   | 1.02E+10  | 3.58E+10  | 2.019   | 0.032   | 4.60602  | 2.18957  | 5.54106  | 4.58321  | 0        | 0.134232  | 0.00889973 | 10.449    | 2.089     | 0.192     |
+| Hela_QC_5ng_S1-B1_1_13728.d.dia | 6854       | 1498        | 8.42E+06   | 1.4E+10   | 5.32E+10  | 2.052   | 0.032   | 4.65333  | 2.13325  | 5.46158  | 4.49295  | 0        | 0.0854085 | 0.00817859 | 10.453    | 2.1       | 0.214     |
+| Hela_QC_5ng_S1-B2_1_13730.d.dia | 6035       | 1474        | 6.74E+06   | 1.05E+10  | 4.36E+10  | 2.08    | 0.033   | 4.16335  | 2.17015  | 5.87256  | 4.83991  | 0        | 0.102536  | 0.00995632 | 10.504    | 2.092     | 0.188   
+
+
+
 The Proteomics QC Tracker evaluates key metrics, including:  
 - **Resolution**:  Confirms high-resolution identification by monitoring the number of proteins identified in HeLa protein digestion of 0.2ng and 5ng.  
 - **Mass Accuracy**: Confirms and precise quantification by showing MS1 and MS2 median mass accuracy. 
@@ -84,7 +93,6 @@ Extract the downloaded ZIP file to access all the repository files.
 -Note: Ensure that the script file called Proteomics_QC_Tracker.py from this repositoryand  all "stats.tsv" files into the same folder as the script file. 
 ### 3. Optional: Add your own QC files and modify file names
 If you added your  "stats.tsv" files, make sure you saved them into the same folder as the script file. Also, to enable time series plots, make sure the file name is in the format DATE/MONTH/YEAR (e.g., 3-February 2025 would be: 03022025).
-
 ### 4. Access the file folder 
 Type in the terminal the path to the folder using the cd:
    ``` bash
