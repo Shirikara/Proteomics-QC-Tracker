@@ -101,6 +101,19 @@ Optional: verify that all dependencies are installed successfully by running:
 ```bash
 pip list
 ```
+Required packages include:
+
+pandas
+tkinter
+matplotlib
+numpy
+seaborn
+datetime
+pillow
+re
+os
+webbrowser
+
 8. Run the tool by typing in the terminal:
 ```bash
 .\Proteomics_QC_Tracker.py
@@ -136,4 +149,4 @@ Visualization of plots that the user selected:
 ## **Running a test file**
 
 ---
-🎓 This project was written as part of the [Python course](https://github.com/szabgab/wis-python-course-2024-11) at the Weizmann Institute of Science.
+🎓 This project was written as part of the [Python course](https://github.com/szabgab/wis-python-course-2024-11) at the Weizmann Institute of Science taught by [Gábor Szabó](https://github.com/szabgab).
