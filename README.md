@@ -64,14 +64,14 @@ Mass spectrometry is sensitive and susceptible to performance drift. Integrating
   The "stats.tsv" file contains the following columns:
    ![image](https://github.com/user-attachments/assets/ecbe402a-62f2-46e3-aa0a-307bb7d62553)
 
-**Input File Example**:
+**Input "stats.tsv" File Example**:
  | File.Name                                                                 | Precursors.Identified | Proteins.Identified | Total.Quantity | MS1.Signal | MS2.Signal | FWHM.Scans | FWHM.RT | Median.Mass.Acc.MS1 | Median.Mass.Acc.MS1.Corrected | Median.Mass.Acc.MS2 | Median.Mass.Acc.MS2.Corrected | MS2.Mass.Instability | Normalisation.Instability | Median.RT.Prediction.Acc | Average.Peptide.Length | Average.Peptide.Charge | Average.Missed.Tryptic.Cleavages |
 |--------------------------------------------------------------------------|------------|-------------|------------|-----------|-----------|---------|---------|-----------|-----------|-----------|-----------|----------|-----------|-----------|-----------|-----------|-----------|
 | Hela_QC_02ng_13727.d.dia | 6475       | 1541        | 6.76E+06   | 1.02E+10  | 3.58E+10  | 2.019   | 0.032   | 4.60602  | 2.18957  | 5.54106  | 4.58321  | 0        | 0.134232  | 0.00889973 | 10.449    | 2.089     | 0.192     |
 | Hela_QC_5ng_13728.d.dia | 6854       | 1498        | 8.42E+06   | 1.4E+10   | 5.32E+10  | 2.052   | 0.032   | 4.65333  | 2.13325  | 5.46158  | 4.49295  | 0        | 0.0854085 | 0.00817859 | 10.453    | 2.1       | 0.214     |
 | Hela_QC_5ng_13730.d.dia | 6035       | 1474        | 6.74E+06   | 1.05E+10  | 4.36E+10  | 2.08    | 0.033   | 4.16335  | 2.17015  | 5.87256  | 4.83991  | 0        | 0.102536  | 0.00995632 | 10.504    | 2.092     | 0.188   
 
-
+Of note, for time series plots, more than 1 stats file is required
 
 The Proteomics QC Tracker evaluates key metrics, including:  
 - **Resolution**:  Confirms high-resolution identification by monitoring the number of proteins identified in HeLa protein digestion of 0.2ng and 5ng.  
