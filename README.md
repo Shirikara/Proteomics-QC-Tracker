@@ -111,7 +111,7 @@ This window should appear when the GUI is initialized:
 
 <img src="GUI_view.PNG" alt="QC Metrics Example" width="500"/>
 
-User chooses which metrics to plot:
+User chooses which metrics to plot and selects the stats file containing folder:
 
 <img src="GUI_view_ticked_metrics_of_interest.PNG" alt="GUI_view_ticked_metrics_of_interest" width="500"/>
 
