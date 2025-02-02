@@ -167,11 +167,11 @@ Note: The database can be updated by running the tool each time a new "stats.tsv
 <img src="Median_mass_accuracy.png" alt="Median_mass_accuracy" width="700"/>
 
 ---
-## **Running a tests file** 💉
-To run the tests, use:
+## **Running a test file** 💉
+To run the test file in the terminal, use:
 
 ```bash
-python Tests.py
+python .\Test.py
 ```
 ## **Upcoming Features (under development)** 💻🔨
 Showing the GUI to the lab users raised multiple ideas for further improving the tool:
