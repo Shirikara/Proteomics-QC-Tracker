@@ -58,7 +58,8 @@ Mass spectrometry is sensitive and susceptible to performance drift. Integrating
 ---
 
 ## **How It Works**  
-- **Compatibility**: the tool is suitable for researchers using [DIA-NN](https://github.com/vdemichev/DiaNN) software.
+- **Compatibility**: the tool is suitable for researchers using [DIA-NN](https://github.com/vdemichev/DiaNN) software <img src="DIA-NN.png" alt="DIANN icon" width="40"/>
+
 - **Requirements**: The software asks the user to upload a "stats" .tsv file, one of the output tables generated in the DIA-NN report.
   The "stats.tsv" file contains the following columns:
    ![image](https://github.com/user-attachments/assets/ecbe402a-62f2-46e3-aa0a-307bb7d62553)
