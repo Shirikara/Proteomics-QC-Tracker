@@ -102,6 +102,7 @@ For macOS/Linux:
 ```bash
 python3 -m venv env
 source env/bin/activate
+```
 
 Install dependencies using the requirements.txt file found in this repository:
 ```bash
