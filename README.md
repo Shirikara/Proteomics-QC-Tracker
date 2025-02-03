@@ -132,18 +132,17 @@ python .\Proteomics_QC_Tracker.py
 ---
 
 ## **Navigating in the GUI** 🧭
-This window should appear when the GUI is initialized:
+This window appears when the GUI is initialized:
 
 <img src="GUI_view_new.PNG" alt="QC Metrics Example" width="500"/>
 
-The user chooses which metrics to plot and selects the stats file containing folder:
-
+Choose which metrics to plot:
 <img src="GUI_view_ticked_metrics_of_interest_new.PNG" alt="GUI_view_ticked_metrics_of_interest" width="500"/>
 
 Select whether to save the plots (Yes/No):
 <img src="GUI_view_dropdown_save_plots.PNG" alt="GUI_view_dropdown_save_plots" width="500"/>
 
-Select the <ins> folder that contains the stat files </ins>  and where the database will be saved 
+Select the <ins> folder that contains the stat files </ins> and where the database will be saved 
 (the result of clicking on the green button):
 
 <img src="GUI_view_select_folder.PNG" alt="GUI_view_select_folder" width="500"/>
