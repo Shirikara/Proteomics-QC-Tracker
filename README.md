@@ -180,6 +180,7 @@ To better understand the contributors to MS performance trends (improvement/dete
 -  **Automation**
 Automating the tool will reduce manual intervention and keep the database updated effortlessly. The idea is to automatically detect new `stats.tsv` files in a designated folder the will trigger data import and processing scripts upon file addition. Using Task Scheduler (Windows), or cloud-based automation.
 
+--- 
 ❓ Let me know if you have any questions or feedback by opening an issue or contacting the project maintainer!
 
 ---
