@@ -172,13 +172,15 @@ To run the test file in the terminal, use:
 python .\Test.py
 ```
 ## **Upcoming Features (under development)** 💻🔨
-Showing the GUI to the lab users raised multiple ideas for further improving the tool:
-- Integration with maintenance logbook table:
-  To assess potential contributors to the MS performance (improvement/deterioration), I would like to merge technical information from the instrument side, like changing the analytical column, and preventive maintenance, cleaning or replacing a part, into the database. This information could be plotted in the output graphs and help explain the signal trends since the date alone is not indicative enough.
--  Counter:
-  Counting the number of samples ran between individual QC runs (running too many samples, especially more "dirty" samples is an essential piece of information.
--  Automation:
-  Learn how to automate the process and check if there is a free automation tool that can run the code and update the database automatically when a new "stats.tsv" file is added to the folder.
+Based on feedback from potential users, my lab members, I came up with several enhancements aiming to improve the tool's functionality and usability in the future:
+- **Integration with Maintenance Logbook Table**  
+To better understand the contributors to MS performance trends (improvement/deterioration), the tool will integrate technical data from the instrument maintenance logbook. I would like to merge technical information from the instrument side (e.g, changing the analytical column, preventive maintenance, cleaning or replacing a part, into the database. This information could be plotted in the output graphs and help explain the signal trends since the date alone is not indicative enough.
+- **Sample Counter**
+  Track the number of samples run between QC runs. Helps prevent overloading the system with excessive or "dirty" samples and provides actionable insights for maintaining consistent MS performance.
+-  **Automation**
+Automating the tool will reduce manual intervention and keep the database updated effortlessly. The idea is to automatically detect new `stats.tsv` files in a designated folder the will trigger data import and processing scripts upon file addition. Using Task Scheduler (Windows), or cloud-based automation.
+
+❓ Let me know if you have any questions or feedback by opening an issue or contacting the project maintainer!
 
 ---
 🎓 This project was written as part of the [Python course](https://github.com/szabgab/wis-python-course-2024-11) at the Weizmann Institute of Science taught by [Gábor Szabó](https://github.com/szabgab).
