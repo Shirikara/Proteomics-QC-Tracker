@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 import tkinter as tk
-from tkinter import filedialog, messagebox, Checkbutton, IntVar
+from tkinter import filedialog, messagebox, Checkbutton, IntVar, ttk
 import os
 import re
 import matplotlib.pyplot as plt
@@ -95,7 +95,8 @@ def main():
                 if column not in hela_qc_database.columns:
                     messagebox.showerror("Error", f"'{column}' column not found in the database!")
                     return
-
+            save_plots = save_option.get() == "Yes"
+            
             # Group data and calculate mean
             for column in selected_columns:
                 data = hela_qc_database.groupby(["Creation_Date", "HeLa_amount"])[column].mean().reset_index()
@@ -139,6 +140,14 @@ def main():
                 plt.grid(False)
                 plt.show(block=False)
                 plt.pause(0.2)  # Allow time for the plot to render before the next one
+                
+                if save_plots:
+                    plot_path = os.path.join(os.getcwd(), f"{column}_plot.png")
+                    plt.savefig(plot_path)
+
+                plt.show(block=False)
+                plt.pause(0.2)
+
 
 
         except Exception as e:
@@ -177,7 +186,7 @@ def main():
         justify="center"
     )
     welcome_label2.pack(pady=10)
-
+    
     # Columns to select
     columns = [
         "Precursors.Identified",
@@ -214,11 +223,20 @@ def main():
     for i, col in enumerate(right_columns):
         chk = Checkbutton(checkbox_frame, text=col, variable=column_vars[col])
         chk.grid(row=i, column=1, sticky="w")
+    
+    # Dropdown menu for saving plots
+    save_option_label = tk.Label(root, text="Save plots as images?",width= 20, font=("Helvetica", 12),anchor="center")
+    save_option_label.pack(pady=5)
 
+    save_option = tk.StringVar(value="No")
+    save_dropdown = ttk.Combobox(root, textvariable=save_option, values=["Yes", "No"], state="readonly", width=10)
+    save_dropdown.pack(pady=5)
 
+    # Select "stats" folder button (green)
     select_button = tk.Button(root, text="Select Stats Folder", command=select_folder, width=20,bg = "#05E39C",fg = "black")
     select_button.pack(pady=15)
 
+    #Exit button (red)
     exit_button = tk.Button(root, text="Exit", command=root.destroy, width=20, bg = "#CD4D44",fg = "white")
     exit_button.pack(pady=15)
 
