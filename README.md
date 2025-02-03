@@ -137,9 +137,11 @@ This window appears when the GUI is initialized:
 <img src="GUI_view_new.PNG" alt="QC Metrics Example" width="500"/>
 
 Choose which metrics to plot:
+
 <img src="GUI_view_ticked_metrics_of_interest_new.PNG" alt="GUI_view_ticked_metrics_of_interest" width="500"/>
 
 Select whether to save the plots (Yes/No):
+
 <img src="GUI_view_dropdown_save_plots.PNG" alt="GUI_view_dropdown_save_plots" width="500"/>
 
 Select the <ins> folder that contains the stat files </ins> and where the database will be saved 
