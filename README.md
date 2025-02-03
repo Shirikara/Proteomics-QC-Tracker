@@ -87,7 +87,7 @@ Ensure Python is installed (version 3.7 or later is recommended). If needed, ins
 Direct Download as a ZIP File (No Git Required)
 Go to the Repository's GitHub Page
 Open the GitHub repository in your browser.
-Click the green Code button.
+Click the ${\color{green}green}$ Code button.
 Select Download ZIP.
 Extract the downloaded ZIP file to access all the repository files.
 -Note: Ensure that the script file called Proteomics_QC_Tracker.py from this repositoryand  all "stats.tsv" files into the same folder as the script file. 
