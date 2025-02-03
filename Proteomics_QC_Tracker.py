@@ -156,7 +156,7 @@ def main():
     # Tkinter GUI setup
     root = tk.Tk()
 
-    root.geometry("450x650")
+    root.geometry("450x700")
     root.title("Proteomics QC Tracker")
 
     # Welcome text part 1
